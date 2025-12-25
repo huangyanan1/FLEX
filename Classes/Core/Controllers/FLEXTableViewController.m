@@ -331,6 +331,7 @@ CGFloat const kFLEXDebounceForExpensiveIO = 0.5;
     ];
     
     for (UIBarButtonItem *item in self.toolbarItems) {
+        // fix private api
         item.width = 60;
     }
     
